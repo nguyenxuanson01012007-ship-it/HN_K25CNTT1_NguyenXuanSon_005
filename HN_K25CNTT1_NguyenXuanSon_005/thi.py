@@ -36,7 +36,7 @@ class BookingManager:
 
     def find_id(self,id):
         for item in self.bookings:
-            if item == id:
+            if item.id == id:
                 return item
         return None
 
